@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги Эвакуатора</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Эвакуатор 24/7</h1>
+        <p>Надежные услуги эвакуации автомобилей</p>
+    </header>
+    <main>
+        <section>
+            <h2>Наши Услуги</h2>
+            <ul>
+                <li>Эвакуация легковых автомобилей</li>
+                <li>Эвакуация грузовых автомобилей</li>
+                <li>Перевозка мотоциклов</li>
+                <li>Специализированная эвакуация</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Контактная Информация</h2>
+            <p>Телефон: <strong>+7 (123) 456-78-90</strong></p>
+            <p>Email: <strong>info@evacuator.ru</strong></p>
+        </section>
+        <section>
+            <h2>Заказать Эвакуатор</h2>
+            <button id="orderButton">Заказать</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Эвакуатор 24/7. Все права защищены.</p>
+    </footer>
+
+    <!-- Модальное окно для формы заказа -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Заказать Эвакуатор</h2>
+            <form id="orderForm">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" required>
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" required>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <script src="evo.js"></script>
+</body>
+</html>
